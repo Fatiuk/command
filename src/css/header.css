@@ -1,21 +1,25 @@
 .header {
-  padding: 20px 0;
+    padding: 150px 0;
+    background-color: aqua;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+
+
+@media screen and(min-width: 768px) {
+    .header {
+            padding: 150px 0;
+            background-color: aqua;
+        }
+    
+        .header-text {}
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+@media screen and(min-width: 1200px) {
+    .header {
+        padding: 150px 0;
+        background-color: aqua;
+    }
+
+    .header-text {}
 }
