@@ -1,6 +1,9 @@
 .header {
     padding: 150px 0;
     background-color: aqua;
+    background-image: url('/img/vite-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -11,7 +14,7 @@
             background-color: aqua;
         }
     
-        .header-text {}
+    .header-text {}
 }
 
 
